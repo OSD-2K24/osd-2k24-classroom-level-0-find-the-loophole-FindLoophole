@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Flag Check
         setup-command: ''
-        command: "./script.sh"
+        command: "bash script.sh"
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
